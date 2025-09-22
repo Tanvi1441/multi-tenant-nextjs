@@ -1,10 +1,7 @@
 // app/apps/[tenant]/page.tsx
+import React from 'react';
 
 export default function TenantPage() {
-  return (
-    <div>
-      <h1>Tenant Page</h1>
-      <p>This page is for a specific tenant.</p>
-    </div>
-  );
+  return <h1>Tenant Home Page</h1>;
 }
+
